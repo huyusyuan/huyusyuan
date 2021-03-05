@@ -12,6 +12,8 @@ int main()
   *p = 200;
    printf("n1:%d n2:%d n3=%d\n", n1, n2, n3);
 ```
+因為 P= &n1 的關係 所以要把200框起來然後指向N1的地方
+
 ## 第二個程式
 ```C
 #include<stdio.h>
